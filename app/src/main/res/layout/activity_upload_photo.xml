@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".UploadPhoto">
+
+    <Button
+        android:id="@+id/logoImage"
+        android:layout_width="match_parent"
+        android:layout_height="319dp"
+        android:background="@drawable/camera"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/uploadimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#000"
+        android:text="Đăng nhập"
+        android:onClick="upload"
+        android:textColor="#fff" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+    <!--visibility??-->
+</LinearLayout>

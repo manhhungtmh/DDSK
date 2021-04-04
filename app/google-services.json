@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "681245670803",
+    "project_id": "ddsk-eaf25",
+    "storage_bucket": "ddsk-eaf25.appspot.com",
+    "firebase_url":"https://ddsk-eaf25-default-rtdb.firebaseio.com/"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681245670803:android:00596cd9beb94014d9fc66",
+        "android_client_info": {
+          "package_name": "com.example.ddsk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681245670803-c9luh56ksdlivl47ad41jvhku19o9jl6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjFGtuo8a7H4DoIO9evH-NU0iDRd-8NTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681245670803-c9luh56ksdlivl47ad41jvhku19o9jl6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
