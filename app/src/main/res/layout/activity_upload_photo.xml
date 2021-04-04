@@ -13,10 +13,17 @@
     <Button
         android:id="@+id/logoImage"
         android:layout_width="match_parent"
-        android:layout_height="319dp"
+        android:layout_height="330dp"
         android:background="@drawable/camera"
         android:padding="20dp" />
-
+    <TextView
+        android:id="@+id/txtTenSuKien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20px"
+        android:text=""
+        >
+    </TextView>
     <Button
         android:id="@+id/uploadimage"
         android:layout_width="match_parent"
